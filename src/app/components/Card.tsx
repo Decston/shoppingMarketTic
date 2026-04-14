@@ -1,23 +1,26 @@
+import type { Product } from '../interfaces/Product';
 import Button from './Button';
 
-const Card = () => {
+const Card = ({item}: Product) => {
 
 	return (
-		<div className="bg-white p-4 w-60 rounded-2xl">
-			<div>
+		<div className="flex h-96 flex-col justify-center bg-white p-2 w-64 rounded-2xl">
+			<div className='flex justify-center'>
 				<img
-					src="http://localhost:5173/public/assets/produtos/tenis.jpg"
+				alt={item.name}
+				className='h-40 rounded-t-lg object-cover'
+					src={`http://localhost:5173/public/assets/produtos/${item.image}.jpg`}
 				></img>
 			</div>
-			<div className="p-4">
+			<div className="p-4 flex flex-col gap-2">
 				<div className="flex justify-center items-center mb-2">
-					<h3>Name Product</h3>
+					<span className='text-center capitalize font-bold'>{item.name}</span>
 				</div>
 				<div className="flex justify-center items-center">
-					<span>Valor do Produto</span>
+					<span>R$ {item.price}</span>
 				</div>
 			</div>
-			<Button>Adicionar no Carrinho</Button>
+			<Button></Button>
 		</div>
 	)
 }
