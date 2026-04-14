@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.2",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@typescript-eslint/eslint-plugin": "^8.58.2",
@@ -29,6 +30,7 @@
     "prettier-plugin-tailwindcss": "^0.7.2",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
+    "react-router-dom": "^7.14.1",
     "tailwind-merge": "^3.5.0",
     "tailwind-variants": "^3.2.2"
   }
