@@ -4,7 +4,7 @@
 			"id": 1,
 			"name": "camisa",
 			"description": "Esta camisa é feita de algodão.",
-			"price": 29.99,
+			"price": 1,
 			"quantity": 0,
 			"category": "Roupas",
 			"image": "camisa"
@@ -13,7 +13,7 @@
 			"id": 2,
 			"name": "calça",
 			"description": "Esta camisa é feita de algodão.",
-			"price": 29.99,
+			"price": 2,
 			"quantity": 0,
 			"category": "Roupas",
 			"image": "camisa"
@@ -22,7 +22,7 @@
 			"id": 3,
 			"name": "blusa",
 			"description": "Esta camisa é feita de algodão.",
-			"price": 29.99,
+			"price": 3,
 			"quantity": 0,
 			"category": "Roupas",
 			"image": "camisa"
@@ -31,7 +31,7 @@
 			"id": 4,
 			"name": "bermuda",
 			"description": "Esta camisa é feita de algodão.",
-			"price": 29.99,
+			"price": 4,
 			"quantity": 0,
 			"category": "Roupas",
 			"image": "camisa"
@@ -41,7 +41,7 @@
 			"id": 5,
 			"name": "casaco",
 			"description": "Esta camisa é feita de algodão.",
-			"price": 29.99,
+			"price": 5,
 			"quantity": 0,
 			"category": "Roupas",
 			"image": "camisa"
@@ -51,7 +51,7 @@
 			"id": 6,
 			"name": "sapato",
 			"description": "Esta camisa é feita de algodão.",
-			"price": 29.99,
+			"price": 6,
 			"quantity": 0,
 			"category": "Roupas",
 			"image": "camisa"

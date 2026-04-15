@@ -20,7 +20,7 @@ const Card = ({item}: Product) => {
 					<span>R$ {item.price}</span>
 				</div>
 			</div>
-			<Button></Button>
+			<Button>Adicionar ao Carrinho</Button>
 		</div>
 	)
 }
